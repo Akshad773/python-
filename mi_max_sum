@@ -1,0 +1,7 @@
+#finding sum of scores using for loop
+scores = [2,45,102,4,9,12,45,90,1,0,1]
+total =0 
+#for score in scores:
+ #total = total + score
+ total = sum(scores)# used sum function to find sum of scores instead of for loop
+print(f"The total runs scored is {total}")
